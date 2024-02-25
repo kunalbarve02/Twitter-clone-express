@@ -7,7 +7,7 @@ class Database {
     }
 
     connect(){
-        mongoose.connect('mongodb+srv://Admin:twittercloneadmin@twitterclone.2lb28.mongodb.net/TwitterClone?retryWrites=true&w=majority',{
+        mongoose.connect('mongodb+srv://Admin:mongoadmin@twitterclone.2lb28.mongodb.net/TwitterClone?retryWrites=true&w=majority',{
         useNewUrlParser:true,
         useUnifiedTopology: true,
         useFindAndModify:false,
