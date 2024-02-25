@@ -15,7 +15,7 @@ const middleware = require('./middelware')
 app.use(bodyParser.json());                                 // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: false }))
 
-app.use(cors({origin:"http://localhost:3000", credentials:true}))             //cors
+app.use(cors({origin:"*", credentials:true}))             //cors
 
 
 const loginRoute = require('./routes/loginRoute')           //Routes
